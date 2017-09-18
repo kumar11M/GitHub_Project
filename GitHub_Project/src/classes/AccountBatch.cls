@@ -1,5 +1,6 @@
 global class AccountBatch implements database.Batchable<sobject> {
     //Batch Class test
+    //test github
     global database.QueryLocator start(database.BatchableContext BC){
          string accName='Satish_Tes%';
          string myQuery='select id, name, rating from account where name like : accName';
