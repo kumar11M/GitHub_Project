@@ -6,7 +6,6 @@ public class TestExample2 {
         if(industry=='Energy'){
             rating='Warm';
             ownership='Public';
-            System.debug('Test'+industry);
         }else{
             rating='Hot';
             ownership='Private';
